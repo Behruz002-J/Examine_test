@@ -7,6 +7,7 @@ import { Teamtemp } from "../pages/Home/Teamtemp";
 import Career from "../pages/Home/Career/Career";
 import { Blog } from "../pages/Home/Blog";
 import { Policy } from "../pages/Policy"
+import { InnerPage } from "../pages/Home/InnerPage";
 export const router = createBrowserRouter([
     {
         path:'/',
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
                 path:"/policy",
                 element:<Policy />
             },
+            {
+                path:"/innerpage",
+                element:<InnerPage />
+            }
         ]
     }
 ])

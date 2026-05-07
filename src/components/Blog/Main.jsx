@@ -17,7 +17,7 @@ function Main() {
             <p className="text-[#232536] text-[16px] font-normal mt-[24px]">It is a long established fact that a reader will be distracted by the readable <br /> content of a page when looking at its layout. The Maker is a decentralized. We <br /> aim to attain the.</p>
             <ul className="flex flex-row">
                 <li className="text-[#444CFC] flex">
-                    <Link to={"/"}>Read more
+                    <Link to="/innerpage">Read more
                     <img src={Turn} className="invert "  alt="" />
                     </Link>
                 </li>
