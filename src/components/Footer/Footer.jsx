@@ -3,7 +3,7 @@ import Facebook from "/src/assets/icons/facebook.svg";
 import Twitter from "/src/assets/icons/Twitter.svg";
 import Instagram from "/src/assets/icons/Instagram.svg";
 import Linkedin from "/src/assets/icons/Linkedin.svg";
-
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer className="bg-[#F9F9FF] mt-[120px]">
@@ -30,7 +30,6 @@ function Footer() {
         </div>
 
         <div className="flex gap-20">
-          {/* COLUMN 1 */}
           <ul className="space-y-3 text-[14px]">
             <li className="font-semibold">Home</li>
             <li className="#232536 text-[16px] leading-[28px] font-semibold">
@@ -47,7 +46,6 @@ function Footer() {
             </li>
           </ul>
 
-          {/* COLUMN 2 */}
           <ul className="space-y-3 text-[14px]">
             <li className="font-semibold">Service</li>
             <li>Technical support</li>
@@ -58,19 +56,19 @@ function Footer() {
             <li>Information Technology</li>
           </ul>
 
-          {/* COLUMN 3 */}
           <ul className="space-y-3 text-[14px]">
             <li className="font-semibold">Resources</li>
             <li>About Us</li>
             <li>Testimonial</li>
-            <li>Privacy Policy</li>
+            <li>
+              <Link to="/policy">Privacy Policy</Link>
+              </li>
             <li>Terms of use</li>
             <li>Blog</li>
           </ul>
         </div>
       </div>
 
-      {/* CONTACT BUTTON */}
       <div className="max-w-[1200px] mx-auto px-6 pb-10 flex justify-end">
         <button className="flex items-center gap-2 text-[14px]">
           <span className="w-6 h-3 bg-gradient-to-r "></span>
@@ -78,7 +76,6 @@ function Footer() {
         </button>
       </div>
 
-      {/* BOTTOM BAR */}
       <div className="bg-[#FFE6D2] py-4">
         <div className="max-w-[1200px] mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-6">
