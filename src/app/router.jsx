@@ -6,7 +6,7 @@ import { Service } from "../pages/Home/Service";
 import { Teamtemp } from "../pages/Home/Teamtemp";
 import Career from "../pages/Home/Career/Career";
 import  { Blog }  from "../pages/Home/Blog";
-import { Policy }  from "../pages/Policy"
+import  Policy   from "../pages/Policy"
 import  { InnerPage }  from "../pages/Home/InnerPage";
 import CareerPage from "../pages/CareerPage/Page";
 
