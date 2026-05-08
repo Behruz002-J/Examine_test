@@ -1,8 +1,8 @@
 
-function Page() {
+function Service() {
   return (
-    <div>Service</div>
+    <div className = "">This is Service page</div>
   )
 }
 
-export default Page
+export default Service

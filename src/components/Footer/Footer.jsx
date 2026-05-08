@@ -29,22 +29,38 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex gap-20">
-          <ul className="space-y-3 text-[14px]">
-            <li className="font-semibold">Home</li>
-            <li className="#232536 text-[16px] leading-[28px] font-semibold">
-              Service
-            </li>
-            <li className="#232536 text-[16px] leading-[28px] font-semibold">
-              Company
-            </li>
-            <li className="#232536 text-[16px] leading-[28px] font-semibold">
-              Career
-            </li>
-            <li className="#232536 text-[16px] leading-[28px] font-semibold">
-              News
-            </li>
-          </ul>
+        <div className="flex gap-[60px]">
+        <div>
+  <ul className="space-y-4 text-[14px]">
+    <Link to="/" className="block font-semibold text-[#232536]">
+      Home
+    </Link>
+    <Link
+      to="/service"
+      className="block text-[#232536] text-[16px] leading-[28px] font-semibold"
+    >
+      Service
+    </Link>
+    <Link
+      to="/company"
+      className="block text-[#232536] text-[16px] leading-[28px] font-semibold"
+    >
+      Company
+    </Link>
+    <Link
+      to="/career"
+      className="block text-[#232536] text-[16px] leading-[28px] font-semibold"
+    >
+      Career
+    </Link>
+    <Link
+      to="/news"
+      className="block text-[#232536] text-[16px] leading-[28px] font-semibold"
+    >
+      News
+    </Link>
+  </ul>
+</div>
 
           <ul className="space-y-3 text-[14px]">
             <li className="font-semibold">Service</li>

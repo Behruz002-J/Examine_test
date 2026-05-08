@@ -1,45 +1,19 @@
-import Turn from '/src/assets/icons/turn-icon.svg'
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+
+import CareerImage from '/src/assets/images/CareeerImage.png'
 function Careers() {
   return (
     <main>
       <section className='flex justify-center'>
-        <div className='flex gap-[56px] mt-[96px]'>
-         <div className='left w-[490px] h-[270px]  mt-[31px]'>
-           <span className='text-[14px] leading-[20px] uppercase font-medium'>CAREER AT Ether</span>
-          <h2 className='text-[48px] leading-[58px] font-semibold pt-[24px]'>Full Stack Developer</h2>
-          <p className='text-[#232536] text-[16px] leading-[24px] font-normal pt-[16px]'>Through True Rich Attended does no end it his mother <br /> since real had half every him case in packages.</p>
-    <div >
-      <Stack spacing={2} direction="row">
-      <Button 
-        variant="contained" 
-        endIcon={<img src={Turn} alt="icon" style={{ width: '20px', height: '20px' }} />}
-        sx={{
-          backgroundColor: '#444CFC', 
-          padding: '12px 32px',
-          textTransform: 'none', 
-          mt:5,
-          '&:hover': {
-            backgroundColor: '#333abd',
-          }
-        }}
-      >
-        Contained
-      </Button>
-    </Stack>
-    </div>
-    
-       </div>
-         <div className='left bg-[#FFE0C7] w-[515px] h-[324px] pt-[82px] pl-[80px]'>
-       <h4 className='text-[24px] leading-[36px] font-semibold'>Job Description</h4>
-       <div>
-        <p className='text-[16px] leading-[24px] pt-[24px]'>Remote, India , 4 to 5 Years Of Experience</p>
-        <p className='text-[16px] leading-[24px] pt-[16px]'>Department: Product Engineering</p>
-        <p className='text-[16px] leading-[24px] pt-[8px]'>Full Time 5 Position Available.</p>
-       </div>
-         </div>
-        </div>
+     <div className="mt-[96px]">
+      <span className ="uppercase flex justify-center font-medium text-[14px] heading-[20px]">CAREER AT FINSWEET</span>
+      <h2 className="flex justify-center text-[48px] leading-[58px] font-semibold items-center mt-[24px]">We hired people who are <br />
+Always Passionate about <br /> what they do</h2>
+<p className="flex justify-center text-[16px] leading-[24px] font-normal mt-[24px]">Through True Rich Attended does no end it his mother since real had half <br /> every him case in packages enquire we up ecstatic unsatiable saw .</p>
+<img className="mt-[64px]" src={CareerImage} alt="" />
+<p className="mt-[80px] flex justify-center">See our open positions</p>
+<span className="flex justify-center mt-[16px]">👇</span>
+     </div>
+     
 
       </section>
     </main>

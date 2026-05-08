@@ -5,9 +5,7 @@ function MainLayout() {
   return (
     <>
       <Header />
-      <main>
-        <Outlet /> {/* Faqat shu yerda sahifalar almashadi */}
-      </main>
+        <Outlet /> 
      
     </>
   )

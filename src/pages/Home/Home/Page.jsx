@@ -10,7 +10,7 @@ import Logo3 from '/src/assets/logos/Logoipsum3.svg'
 import Logo4 from '/src/assets/logos/Logoipsum4.svg'
 import Logo5 from '/src/assets/logos/Logoipsum5.svg'
 
-function CompanySection() {
+function Home() {
   return (
     <>
     <section className="py-20 bg-white">
@@ -30,14 +30,12 @@ function CompanySection() {
           </p>
         </div>
 
-        {/* 2. Rasmlar galereyasi */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
           <div className="overflow-hidden rounded-sm"><img src={OfficeImg1} alt="" className="w-full h-[450px] object-cover hover:scale-105 transition duration-500" /></div>
           <div className="overflow-hidden rounded-sm"><img src={OfficeImg2} alt="" className="w-full h-[450px] object-cover hover:scale-105 transition duration-500" /></div>
           <div className="overflow-hidden rounded-sm"><img src={OfficeImg3} alt="" className="w-full h-[450px] object-cover hover:scale-105 transition duration-500" /></div>
         </div>
 
-        {/* 3. OUR STORY SECTION (To'g'irlangan qism) */}
         <div className="flex flex-col md:flex-row items-stretch w-full min-h-[400px]">
           
           {/* Chap tomon: Matn */}
@@ -60,7 +58,6 @@ function CompanySection() {
             </p>
           </div>
 
-          {/* O'ng tomon: Sariq blok (Muhim: w-[624px] olib tashlandi) */}
           <div className="w-full md:w-[480px] lg:w-[518px] bg-[#FFEBD1] p-10 md:p-16 flex items-center">
             <div className="grid grid-cols-2 gap-x-12 gap-y-16 w-full">
               
@@ -104,7 +101,6 @@ function CompanySection() {
           </div>
         </div>
 
-        {/* 4. Logotiplar (Chiroyli tartibda) */}
         <div className="flex  justify-between items-center ">
           <img src={LogoI} alt="Logo" className="" />
           <img src={Logo2} alt="Logo" className="" />
@@ -124,4 +120,4 @@ function CompanySection() {
   );
 }
 
-export default CompanySection;
+export default Home;

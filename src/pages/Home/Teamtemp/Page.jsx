@@ -4,7 +4,7 @@ import Teamplate2 from '/src/assets/images/Teamplate2.png'
 import Footer from '../../../components/Footer/Footer'
 import { useLocation, Link } from 'react-router-dom';
 
-function Page() {
+function Teamtemp() {
   const location = useLocation();
   const { memberImage, memberName, memberRole } = location.state || {
     memberImage: Teams,
@@ -85,4 +85,4 @@ function Page() {
   )
 }
 
-export default Page;
+export default Teamtemp;

@@ -1,13 +1,13 @@
 import Careers from '../../../components/Career/Careers'
 import Footer from '../../../components/Footer/Footer'
-import Details from '../../../components/Career/Details'
+import Culture from '../../../components/Career/Culture'
 function Career() {
   return (
     <>
     
     <div></div>
-    <Careers />
-    <Details />
+     <Careers />
+     <Culture />
     <Footer />
     </>
   )
