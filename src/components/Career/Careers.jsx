@@ -14,8 +14,7 @@ Always Passionate about <br /> what they do</h2>
 <span className="flex justify-center mt-[16px]">👇</span>
      </div>
      
-
-      </section>
+   </section>
     </main>
   )
 }

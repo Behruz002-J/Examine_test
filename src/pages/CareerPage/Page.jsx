@@ -1,4 +1,4 @@
-import Inner from "../../components/CareerPage/CareerInner"
+import Inner from "../Home/InnerPage/Page"
 
 function CareerPage() {
   return (
