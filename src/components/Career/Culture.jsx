@@ -79,7 +79,7 @@ function Culture() {
           </p>
           <ul>
             <li className="mt-[52px]">
-              <Link className="text-[#5D5FEF] " to={""}>
+              <Link to="/inner" className="text-[#5D5FEF] " >
                 Apply now →
               </Link>
             </li>
@@ -97,7 +97,7 @@ function Culture() {
           </p>
           <ul>
             <li className="mt-[52px]">
-              <Link className="text-[#5D5FEF] " to={""}>
+              <Link to="/inner" className="text-[#5D5FEF] " >
                 Apply now →
               </Link>
             </li>
@@ -115,7 +115,7 @@ function Culture() {
           </p>
           <ul>
             <li className="mt-[52px]">
-              <Link className="text-[#5D5FEF] " to={""}>
+              <Link to="/inner" className="text-[#5D5FEF] ">
                 Apply now →
               </Link>
             </li>
@@ -133,7 +133,7 @@ function Culture() {
           </p>
           <ul>
             <li className="mt-[52px]">
-              <Link className="text-[#5D5FEF] " to={""}>
+              <Link to="/inner" className="text-[#5D5FEF] ">
                 Apply now →
               </Link>
             </li>
@@ -151,7 +151,7 @@ function Culture() {
           </p>
           <ul>
             <li className="mt-[52px]">
-              <Link className="text-[#5D5FEF] " to={""}>
+              <Link to="/inner" className="text-[#5D5FEF] " >
                 Apply now →
               </Link>
             </li>
@@ -169,7 +169,7 @@ function Culture() {
           </p>
           <ul>
             <li className="mt-[52px]">
-              <Link className="text-[#5D5FEF] " to={""}>
+              <Link to="/inner" className="text-[#5D5FEF] " >
                 Apply now →
               </Link>
             </li>
@@ -187,7 +187,7 @@ function Culture() {
           </p>
           <ul>
             <li className="mt-[52px]">
-              <Link className="text-[#5D5FEF] " to={""}>
+              <Link to="/inner" className="text-[#5D5FEF] " >
                 Apply now →
               </Link>
             </li>
