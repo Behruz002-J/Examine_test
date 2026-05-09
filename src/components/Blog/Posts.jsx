@@ -1,59 +1,59 @@
-import BlogImg from '/src/assets/images/BlogPosts.png'
-import BlogImg2 from '/src/assets/images/BlogPosts2.png'
-import BlogImg3 from '/src/assets/images/BlogPost3.png'
-import BlogImg4 from '/src/assets/images/BlogPosts4.png'
-import BlogImg5 from '/src/assets/images/BlogPosts5.png'
-import BlogImg6 from '/src/assets/images/BlogPosts6.png'
-import Andrew from '/src/assets/images/Blog-anImage.png'
+import BlogImg from "/src/assets/images/BlogPosts.png";
+import BlogImg2 from "/src/assets/images/BlogPosts2.png";
+import BlogImg3 from "/src/assets/images/BlogPost3.png";
+import BlogImg4 from "/src/assets/images/BlogPosts4.png";
+import BlogImg5 from "/src/assets/images/BlogPosts5.png";
+import BlogImg6 from "/src/assets/images/BlogPosts6.png";
+import Andrew from "/src/assets/images/Blog-anImage.png";
 
 const blogs = [
   {
     id: 1,
-    img:BlogImg,
-    title: 'We aim to attain the greatest satisfaction for our clients',
-    desc: 'It is a long established fact that a reader will be distracted by the readable content of a page.',
-    author: 'Andrew Jonson',
-    date: 'January 2021',
+    img: BlogImg,
+    title: "We aim to attain the greatest satisfaction for our clients",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page.",
+    author: "Andrew Jonson",
+    date: "January 2021",
   },
   {
     id: 2,
-    img:BlogImg2,
-    title: 'We aim to attain the greatest satisfaction for our clients',
-    desc: 'It is a long established fact that a reader will be distracted by the readable content of a page.',
-    author: 'Andrew Jonson',
-    date: 'January 2021',
+    img: BlogImg2,
+    title: "We aim to attain the greatest satisfaction for our clients",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page.",
+    author: "Andrew Jonson",
+    date: "January 2021",
   },
   {
     id: 3,
-    img:BlogImg3,
-    title: 'We aim to attain the greatest satisfaction for our clients',
-    desc: 'It is a long established fact that a reader will be distracted by the readable content of a page.',
-    author: 'Andrew Jonson',
-    date: 'January 2021',
+    img: BlogImg3,
+    title: "We aim to attain the greatest satisfaction for our clients",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page.",
+    author: "Andrew Jonson",
+    date: "January 2021",
   },
   {
     id: 4,
-    img:BlogImg4,
-    title: 'We aim to attain the greatest satisfaction for our clients',
-    desc: 'It is a long established fact that a reader will be distracted by the readable content of a page.',
-    author: 'Andrew Jonson',
-    date: 'January 2021',
+    img: BlogImg4,
+    title: "We aim to attain the greatest satisfaction for our clients",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page.",
+    author: "Andrew Jonson",
+    date: "January 2021",
   },
   {
     id: 5,
-    img:BlogImg5,
-    title: 'We aim to attain the greatest satisfaction for our clients',
-    desc: 'It is a long established fact that a reader will be distracted by the readable content of a page.',
-    author: 'Andrew Jonson',
-    date: 'January 2021',
+    img: BlogImg5,
+    title: "We aim to attain the greatest satisfaction for our clients",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page.",
+    author: "Andrew Jonson",
+    date: "January 2021",
   },
   {
     id: 6,
-    img:BlogImg6,
-    title: 'We aim to attain the greatest satisfaction for our clients',
-    desc: 'It is a long established fact that a reader will be distracted by the readable content of a page.',
-    author: 'Andrew Jonson',
-    date: 'January 2021',
+    img: BlogImg6,
+    title: "We aim to attain the greatest satisfaction for our clients",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page.",
+    author: "Andrew Jonson",
+    date: "January 2021",
   },
 ];
 
@@ -61,12 +61,18 @@ function Posts() {
   return (
     <>
       <section className="bg-[#F9F9F9] px-[96px] pb-[96px]">
-        <div className='mt-[96px]'>
-          <h2 className="text-[48px] font-semibold leading-[58px]">All posts</h2>
+        <div className="mt-[96px]">
+          <h2 className="text-[48px] font-semibold leading-[58px]">
+            All posts
+          </h2>
           <div className="grid grid-cols-3 gap-[32px]">
             {blogs.map((blog) => (
               <div key={blog.id} className="shadow-md mt-[64px]">
-                <img src={blog.img} alt="" className="w-full h-[240px] object-cover" />
+                <img
+                  src={blog.img}
+                  alt=""
+                  className="w-full h-[240px] object-cover"
+                />
                 <h4 className="text-[24px] leading-[36px] font-semibold pt-[32px] pl-[32px]">
                   {blog.title}
                 </h4>
@@ -94,7 +100,7 @@ function Posts() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default Posts
+export default Posts;

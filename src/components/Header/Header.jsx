@@ -5,9 +5,9 @@ function Header() {
   const location = useLocation(); 
 
   const navLinks = [
-    { name: "Home", path: "/" },
+    { name: "Home", path: "/home" },
     { name: "Service", path: "/service" },
-    { name: "Company", path: "/company" },
+    { name: "Company", path: "/" },
     { name: "Career", path: "/career" },
     { name: "Blog", path: "/blog" },
     { name: "Contact us", path: "/contact" },
