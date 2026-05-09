@@ -42,7 +42,7 @@
       <main>
         <section>
   <div className='flex gap-[56px] mt-[96px]'>
-         <div className='left w-[490px] h-[270px]  mt-[31px]'>
+         <div className='left w-[490px] h-[270px]  mt-[31px] ml-[270px]'>
            <span className='text-[14px] leading-[20px] uppercase font-medium'>CAREER AT Ether</span>
           <h2 className='text-[48px] leading-[58px] font-semibold pt-[24px]'>Full Stack Developer</h2>
           <p className='text-[#232536] text-[16px] leading-[24px] font-normal pt-[16px]'>Through True Rich Attended does no end it his mother <br /> since real had half every him case in packages.</p>
@@ -55,13 +55,13 @@
           backgroundColor: '#444CFC', 
           padding: '12px 32px',
           textTransform: 'none', 
-          mt:5,
+          mt:"40px",
           '&:hover': {
             backgroundColor: '#333abd',
           }
         }}
       >
-        Contained
+        Apply now 
       </Button>
     </Stack>
     </div>

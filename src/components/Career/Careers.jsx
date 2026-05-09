@@ -4,7 +4,7 @@ function Careers() {
   return (
     <main>
       <section className='flex justify-center'>
-     <div className="mt-[96px]">
+     <div className="mt-[96px] ">
       <span className ="uppercase flex justify-center font-medium text-[14px] heading-[20px]">CAREER AT FINSWEET</span>
       <h2 className="flex justify-center text-[48px] leading-[58px] font-semibold items-center mt-[24px]">We hired people who are <br />
 Always Passionate about <br /> what they do</h2>
